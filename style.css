@@ -5,6 +5,14 @@ body {
     overflow-x: hidden;
 }
 
+.parallax-container {
+
+    position: relative;
+    width: 100%;
+    height: 1000px;
+
+}
+
 .object1 {
     position: absolute;
     background-image: url(img/parallax1@2x.png);
@@ -90,5 +98,15 @@ body {
     background-position-x: center;
     background-position-y: top;
     width: 100%;
+    height: 800px;
+}
+
+.parallax__layer {
+    background-color: #264A5E;
+    position: relative;
+    z-index: 1;
+}
+
+.background-gradient {
     height: 1000px;
 }
